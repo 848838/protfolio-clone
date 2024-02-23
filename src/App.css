@@ -1,0 +1,69 @@
+.btn-get-started{
+    border:1px solid rgb(255, 250, 252);
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 10vh;
+    padding: 5px;
+    transition: 0.5s;
+   text-align: end;
+}
+
+.btn-get-started:hover{ 
+    background-color: rgb(230, 0, 255);
+    color:white;
+    
+}
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.col-container-fluid{
+    display: flex;
+    border: 2px solid black;
+    width: 30%;
+    height: 10vw;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.col-container-fluid > section{
+        display: flex;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+        
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.emailform{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    margin: 10pc auto;
+    box-shadow: 3px 4px 32px -4px;
+    background-color: whitesmoke;
+
+}
+.text{
+    margin: 10px ,0;
+}
+.submit:hover{
+    background-color: rgb(230, 0, 255);
+    transition: 1s;
+}
+.btn {
+    display: none;
+}
